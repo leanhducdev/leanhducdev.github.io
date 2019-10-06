@@ -153,28 +153,33 @@ nav.navbar.navbar-light.bg-faded.navbar-fix-top {
 
 @media (max-width: 576px){
 	*{
-		li.nav-item {
-		}
+		
+	}
 
-		a.nav-link {
-			margin: 0px;
-			padding: 0px;
-		}
+h2.tieudecap2 {
+    text-align: center;
+}
+	li.nav-item {
+	}
 
-		ul.nav.navbar-nav.float-xs-right {
-			display: inline;
-			float: none;
-		}
+	a.nav-link {
+		margin: 0px;
+		padding: 0px;
+	}
 
-		li.nav-item {
-			display: inline;
-			float: none;
-		}
+	ul.nav.navbar-nav.float-xs-right {
+		display: inline;
+		float: none;
+	}
 
-		a.navbar-brand {
-			text-align: center;
-			width: 100%;
-		}
+	li.nav-item {
+		display: inline;
+		float: none;
+	}
+
+	a.navbar-brand {
+		text-align: center;
+		width: 100%;
 	}
 
 	.xuong:hover {
@@ -204,7 +209,7 @@ nav.navbar.navbar-light.bg-faded.navbar-fix-top {
 	}
 
 	.khoi img {
-		margin-top: -176px;
+		margin-top: -150px;
 		margin-bottom: -50px;
 	}
 }
