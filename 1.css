@@ -1,7 +1,106 @@
 *{margin: 0; padding: 0;}
 
-.phan-header img {
-    width: 100%;
+.xuong:after {content: "";width: 4px;height: 12px;background: white;position: absolute;left: 50%;bottom: 65%;margin-left: -2px;}
+
+.xuong:hover {
+    bottom: 12%;
+}
+
+.xuong {
+    width: 40px;
+    height: 75px;
+    position: absolute;
+    border: 2px solid white;
+    left: 50%;
+    border-radius: 30px;
+    bottom: 10%;
+    margin-left: -20px;
+    z-index: 5;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.khoittnho {
+    margin-bottom: 55px;
+}
+
+.khoittnho p {
+    font-size: 18px;
+    line-height: 25px;
+}
+
+span.motaqt {
+    font-size: 18px;
+    margin-bottom: 26px;
+    display: block;
+    font-weight: 500;
+}
+
+h3.tieudecap3 {
+    font-size: 21px;
+    color: #e45557;
+    margin-bottom: 20px;
+}
+
+span.dam {
+    font-weight: bold;
+    font-family: segoe ui;
+}
+
+h2.tieudecap2 {
+    font-weight: normal;
+    font-family: segoe ui light;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.tieudeto {
+    padding: 0;
+    margin: 0;
+    padding-top: 120px;
+    margin-bottom: 60px;
+}
+
+.tieudeto h1 {
+    font-size: 40px;
+    font-family: segoe ui;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    background: url(images/ke.png) no-repeat center bottom;
+}
+
+a.nuthire.btn.btn-primary {
+    background: black;
+    width: 180px;
+    border-radius: 0px;
+    text-transform: uppercase;
+    font-size: 20px;
+    border: none;
+}
+
+.khoi p {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.khoi h2 {
+    font-family: segoe ui;
+    font-size: 52px;
+    padding-top: 50px;
+    margin-bottom: 22px;
+    text-transform: uppercase;
+    color: orange;
+}
+
+.khoi img {
+    border-radius: 50%;
+}
+
+.khoi {
+    z-index: 2;
+    position: relative;
+    text-align: center;
+    padding-top: 20%;
 }
 
 
@@ -42,14 +141,15 @@ nav.navbar.navbar-light.bg-faded.navbar-fix-top {
 	background: linear-gradient(90deg,#4490cc 0%,#42a1b5 50%,#43b2a1 100%);
 }
 
-/*.phan-header:before {
+.phan-header:before {
     content: "";
     position: absolute;
     left: 0px;
     width: 50%;
     height: 100%;
     background: #4499be;
-}*/
+    z-index: 1;
+}
 
 @media (max-width: 576px){
 	*{
